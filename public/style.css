@@ -1,0 +1,101 @@
+.social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  }
+   
+    .social ul {
+      list-style: none;
+    }
+   
+    .social ul li a {
+      display: inline-block;
+      color:#fff;
+      background: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+      -webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+   
+    .social ul li .icon {background:rgba(0,0,0,0.9);} /* Establecemos los colores de cada red social, aprovechando su class */
+   
+    .social ul li a:hover {
+      background: #00A7E2; /* Cambiamos el fondo cuando el usuario pase el mouse */
+      padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+
+
+@media only screen and (max-width: 750px){
+  img{
+      width: 50%;
+  }
+
+}
+
+.cardListHTML {
+  overflow-y: scroll;
+}
+
+.cart-item-desc {
+  min-height: 160px;
+}
+
+.waiting-for-pay img {
+  width: 400px;
+}
+
+.form-mercadopago {
+  text-align: center;
+}
+
+.form-mercadopago button {
+  min-width: 200px;
+  font-size: 25px;
+}
+
+.creandola{
+  color: #f168df;
+  font-size: 1.2em;
+}
+
+.owl-carousel .owl-item img{
+  height: 100% !important;
+}
+
+.single-product-wrapper .product-img img{
+  height: 240px;
+}
+
+.header_area .favourite-area a span, .header_area .user-login-info a span, .header_area .cart-area a span{
+  color: #00a1da !important;
+}
+
+.single-cart-item a.product-image img{
+  width: 100%;
+}
+
+.header_area .classynav ul li .megamenu li a, .header_area .classynav ul li .dropdown li a{
+  line-height: 13px;
+  padding-top: 10px;
+}
+
+.prefooter{
+  background: url('./images/prefooter.png');
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+  margin-bottom: -1px;
+}
+
+@media only screen and (max-width: 375px) {
+  .prefooter{
+    margin-bottom: -8px;
+  }
+  .single-product-wrapper{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

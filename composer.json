@@ -17,7 +17,8 @@
         "league/flysystem-aws-s3-v3": "~1.0",
         "melhorenvio/mercadopago-dx-php-laravel": "^1.2",
         "tcg/voyager": "^1.4",
-        "fzaninotto/faker": "^1.9.1"
+        "fzaninotto/faker": "^1.9.1",
+        "ext-gd": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -69,4 +70,5 @@
             "url": "https://larapack.io"
         }
     }
+
 }

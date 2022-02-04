@@ -18,7 +18,8 @@
         "melhorenvio/mercadopago-dx-php-laravel": "^1.2",
         "tcg/voyager": "^1.4",
         "fzaninotto/faker": "^1.9.1",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "ext-exif":"*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
